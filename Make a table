@@ -1,0 +1,12 @@
+import pandas as pd
+
+# Create a dictionary with your data
+data = {'Name': ['John', 'Anna', 'Peter', 'Linda'],
+        'Age': [28, 35, 41, 29],
+        'City': ['New York', 'Paris', 'Berlin', 'London']}
+
+# Create a DataFrame from the dictionary
+df = pd.DataFrame(data)
+
+# Display the DataFrame
+print(df)
